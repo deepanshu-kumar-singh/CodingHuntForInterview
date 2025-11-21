@@ -1,4 +1,4 @@
-package org.example.day1.playWithCustomObject;
+package org.example.streams.playWithCustomObject;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package org.example.day1.playWithPrimitive;
+package org.example.streams.playWithPrimitive;
 
 import java.util.Arrays;
 import java.util.List;

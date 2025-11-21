@@ -1,4 +1,4 @@
-package org.example.day1.playWithCustomObject;
+package org.example.streams.playWithCustomObject;
 
 public class Employee {
     String name;
