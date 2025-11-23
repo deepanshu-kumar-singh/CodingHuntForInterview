@@ -2,6 +2,7 @@ package org.example.regularPractise;
 
 import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -50,6 +51,15 @@ public class Day2 {
                 .sorted(Comparator.comparing(Employees::getName))
                 .toList();
         System.out.println(list1);
+
+        //Sort employees inside each department by salary (descending)
+        Map<String, List<Employees>> collect3 = emp.stream()
+                .collect(
+                        Collectors.groupingBy(
+                                Employees::getDept, Collectors.collectingAndThen(Collectors.toList(),
+                                        x -> x.stream().sorted(Comparator.comparingDouble(Employees::getSalary))
+                                                .toList())));
+        System.out.println(collect3);
 
         //Flatten nested lists then sort unique values
 
