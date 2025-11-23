@@ -77,6 +77,10 @@ public class Day1 {
                 .get().getKey();
         System.out.println(key);
 
+        String collect4 = Arrays.stream(s.split("")).map(String::valueOf).collect(Collectors.joining(","));
+        System.out.println(collect4);
+
+
     }
 }
 
