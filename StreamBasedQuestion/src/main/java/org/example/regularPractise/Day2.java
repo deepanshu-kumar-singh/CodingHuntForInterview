@@ -2,7 +2,6 @@ package org.example.regularPractise;
 
 import java.util.*;
 import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -66,6 +65,12 @@ public class Day2 {
         List<Integer> num1= Arrays.asList(2,6,7,11,5,77,67,2);
         List<Integer> num2= Arrays.asList(22,26,27,21,25,27,27,2);
         List<Integer> num3= Arrays.asList(2,36,37,31,35,37,37,2);
+
+        int sum = num1.stream().mapToInt(Integer::intValue).sum();
+        System.out.println(sum);
+
+        List<Integer> list3 = num1.stream().filter(num2::contains).toList();
+        System.out.println(list3);
 
         List<Integer> list2 = Stream.of(num1, num2, num3).flatMap(Collection::stream).distinct().toList();
         System.out.println(list2);
