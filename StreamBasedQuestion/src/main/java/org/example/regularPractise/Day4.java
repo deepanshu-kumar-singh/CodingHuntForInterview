@@ -41,7 +41,8 @@ public class Day4 {
 
         //Find frequency of each element in a list.
        Map<Integer, Long> map= num.stream()
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+                .collect(Collectors.groupingBy(
+                        Function.identity(), Collectors.counting()));
         System.out.println(map);
 
         //Given a list of strings, return the longest string.

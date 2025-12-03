@@ -1,0 +1,206 @@
+✅ 1. String & Basic Logic Problems (Most Asked)
+⭐ High Frequency (Must Know)
+
+Reverse a String without using built-in methods
+
+Check if string is palindrome
+
+Find the first non-repeating character in a string
+
+Count frequency of characters using HashMap
+
+Longest common prefix
+
+String compression
+
+Remove duplicate characters from string
+
+Check if two strings are anagrams
+
+✅ 2. Array Problems
+⭐ High Frequency
+
+Find second largest / smallest element
+
+Move all zeros to end
+
+Kadane’s Algorithm — Maximum Subarray Sum
+
+Two Sum (HashMap)
+
+Leaders in array
+
+Dutch flag problem (sort 0,1,2)
+
+Merge two sorted arrays
+
+Rotate array by K positions
+
+Medium Difficulty
+
+Find missing number in array (1 to n)
+
+Find pair with given sum
+
+Longest consecutive sequence
+
+Majority element (Moore’s Voting)
+
+✅ 3. Linked List Problems
+⭐ High Frequency
+
+Reverse Linked List (iterative + recursive)
+
+Middle of Linked List (slow/fast pointers)
+
+Detect Loop in Linked List (Floyd Cycle Detection)
+
+Remove loop in linked list
+
+Merge two sorted linked lists
+
+Intersection of two linked lists
+
+Nth node from end
+
+✅ 4. Stack & Queue Problems
+Must Know
+
+Valid Parentheses using stack
+
+Next greater element
+
+Implement stack using queue
+
+Implement queue using stack
+
+Min Stack Implementation
+
+Sliding Window Maximum (Deque)
+
+✅ 5. HashMap / Set Problems
+Very common in interviews:
+
+Two Sum using HashMap
+
+Subarray with sum 0
+
+Count distinct elements in window
+
+Group Anagrams
+
+Find duplicate elements
+
+Find k most frequent elements
+
+✅ 6. Tree / Binary Search Tree Problems (asked in product companies)
+Standard Questions
+
+Inorder, Preorder, Postorder traversal
+
+Level Order traversal
+
+Height of binary tree
+
+Lowest Common Ancestor (LCA)
+
+Search in BST
+
+Insert in BST
+
+Medium Difficulty
+
+Check if tree is balanced
+
+Diameter of binary tree
+
+✅ 7. Recursion + Backtracking Problems
+Must Know
+
+Permutation of string
+
+Subset generation
+
+Combination sum
+
+N-Queens (basic understanding)
+
+✅ 8. Sliding Window Problems
+Most asked:
+
+Longest substring without repeating characters
+
+Maximum sum subarray of size K
+
+Count occurrences of anagrams
+
+Minimum window substring (medium–hard)
+
+✅ 9. Dynamic Programming (For 4-year exp, only basics required)
+
+0/1 Knapsack (basic understanding)
+
+Climbing stairs
+
+Min cost path
+
+Longest Increasing Subsequence (LIS)
+
+✅ 10. Java-Specific Coding Questions
+VERY IMPORTANT for Java interviews:
+
+Implement your own HashMap
+
+Implement your own LRU Cache
+
+Producer-Consumer using wait/notify
+
+Thread-safe Singleton (Double-checked locking)
+
+Callable vs Runnable example
+
+Create custom exception class
+
+Implement thread pool executor (high-level)
+
+🚀 Top 20 Coding Questions (Absolute Must for 3–5 YOE)
+
+Two Sum
+
+Reverse Linked List
+
+Detect and Remove Loop
+
+Valid Parentheses
+
+Longest Substring Without Repeating Characters
+
+Next Greater Element
+
+Level Order Traversal
+
+Merge Intervals
+
+Move Zeros
+
+Maximum Subarray Sum
+
+Sliding Window Maximum
+
+Find Missing Number
+
+Majority Element
+
+Group Anagrams
+
+LRU Cache
+
+Clone Linked List with Random Pointer
+
+Kth Largest Element
+
+Rotate Matrix (90 degrees)
+
+Word Break Problem
+
+Top K Frequent Elements
