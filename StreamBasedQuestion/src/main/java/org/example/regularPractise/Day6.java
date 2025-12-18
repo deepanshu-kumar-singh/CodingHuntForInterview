@@ -24,6 +24,7 @@ public class Day6 {
                 .entrySet()
                 .stream()
                 .max(Map.Entry.comparingByValue());
+
         System.out.println(max.get());
 
        // 4.Given an array of integers, find the kth largest element.
